@@ -9,9 +9,8 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
-        <!-- Header -->
         <header class="header" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
-            <div class="container" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000"  data-aos-offset="0">
+            <div class="container">
                 <div class="header-content">
                     <div class="logo">
                         <a href="/">
@@ -28,7 +27,7 @@
                                 <div class="dropdown-content">
                                     <div class="dropdown-card">
                                         <h3>Welcome to Rentroz</h3>
-                                        <p>Your trusted partner in real estate. Find your perfect property today.</p>
+                                        <p>Your trusted partner in real estate.</p>
                                     </div>
                                 </div>
                             </li>
@@ -37,18 +36,8 @@
                                 <div class="dropdown-content">
                                     <ul>
                                         <li><a href="/properties/buy"><h4>Buy Property</h4><p>Find and purchase your dream property.</p></a></li>
-                                        <li><a href="/properties/rent"><h4>Rent Property</h4><p>Discover rental properties that match your lifestyle.</p></a></li>
+                                        <li><a href="/properties/rent"><h4>Rent Property</h4><p>Discover rental properties.</p></a></li>
                                         <li><a href="/properties/sell"><h4>Sell Property</h4><p>List your property and reach buyers.</p></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a href="#" class="nav-link">Properties <i class="fas fa-chevron-down"></i></a>
-                                <div class="dropdown-content">
-                                    <ul>
-                                        <li><a href="/properties/featured"><h4>Featured Properties</h4><p>Explore premium properties.</p></a></li>
-                                        <li><a href="/properties/new"><h4>New Listings</h4><p>Be the first to see new properties.</p></a></li>
-                                        <li><a href="/properties/reduced"><h4>Price Reduced</h4><p>Great deals on recently reduced properties.</p></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -56,13 +45,21 @@
                                 <a href="/contact" class="nav-link">Contact</a>
                             </li>
                         </ul>
+        
+                        <!-- Move Add Property button inside the mobile menu -->
+                        <div class="header-actions-mobile">
+                            <button class="btn btn-outline">Add Property</button>
+                        </div>
                     </nav>
+        
+                    <!-- Keep Add Property outside for desktop -->
                     <div class="header-actions">
                         <button class="btn btn-outline">Add Property</button>
                     </div>
                 </div>
             </div>
         </header>
+        
 
 
         <main>
@@ -75,41 +72,38 @@
                                 <h1>You Dream it,<br>We'll Find it.</h1>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Service Icons -->
-            <section class="service-icons">
-                <div class="container">
-                    <div class="service-grid">
-                        <div class="service-icon" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="50">
-                            <img src="https://static.thenounproject.com/png/481137-200.png" alt="Apartments" class="icon">
-                            <span>Apartments</span>
-                        </div>
-                        <div class="service-icon" data-aos="zoom-in-up" data-aos-offset="200"  data-aos-duration="1000"  data-aos-delay="150">
-                            <img src="https://img.freepik.com/premium-vector/vector-house-icon-outline-house-home-page-icon-clip-art-svg_769314-402.jpg" alt="Houses" class="icon">
-                            <span>Houses</span>
-                        </div>
-                        <div class="service-icon" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="250">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvrm5VBWYoO4o4s0bt9pAgvnuinxs3W7js2w&s" alt="Rent" class="icon">
-                            <span>Rent</span>
-                        </div>
-                        <div class="service-icon" data-aos="zoom-in-up"data-aos-offset="200" data-aos-duration="1000" data-aos-delay="350">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN4952D8XV3c1Av_L0sLxFJ3cbEBhsTUTDyw&s" alt="Financing" class="icon">
-                            <span>Financing</span>
-                        </div>
-                        <div class="service-icon" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="450">
-                            <img src="https://cdn-icons-png.flaticon.com/512/5564/5564847.png" alt="Furniture" class="icon">
-                            <span>Furniture</span>
-                        </div>
-                        <div class="service-icon" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="550"  >
-                            <img src="https://www.svgrepo.com/show/2772/city-buildings.svg" alt="Buildings" class="icon">
-                            <span>Buildings</span>
+            
+                        <!-- Service Icons at the Bottom -->
+                        <div class="service-icons">
+                            <div class="service-icon" data-aos="">
+                                <img src="https://static.thenounproject.com/png/481137-200.png" alt="Apartments" class="icon">
+                                <span>Apartments</span>
+                            </div>
+                            <div class="service-icon">
+                                <img src="https://cdn-icons-png.flaticon.com/512/48/48781.png" alt="Houses" class="icon">
+                                <span>Houses</span>
+                            </div>
+                            <div class="service-icon">
+                                <img src="https://cdn-icons-png.flaticon.com/512/11112/11112617.png" alt="Rent" class="icon">
+                                <span>Rent</span>
+                            </div>
+                            <div class="service-icon">
+                                <img src="https://cdn.iconscout.com/icon/free/png-256/free-finance-icon-download-in-svg-png-gif-file-formats--money-business-investment-loan-security-insurance-pack-crime-icons-1393874.png?f=webp" alt="Financing" class="icon">
+                                <span>Financing</span>
+                            </div>
+                            <div class="service-icon">
+                                <img src="https://cdn-icons-png.flaticon.com/512/5564/5564847.png" alt="Furniture" class="icon">
+                                <span>Furniture</span>
+                            </div>
+                            <div class="service-icon">
+                                <img src="https://www.svgrepo.com/show/2772/city-buildings.svg" alt="Buildings" class="icon">
+                                <span>Buildings</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
+            
 
             <!-- Search Form -->
             <section class="search-form" >
@@ -258,29 +252,8 @@
             </section>
 
             <!-- Discover Section -->
-            <!-- <section class="discover">
-                <div class="discover-image">
-                    <div class="discover-overlay">
-                        <div class="container">
-                            <div class="discover-content">
-                                <h2>Discover a place you'll<br>love to live</h2>
-                                <p>Find your dream home with our expert real estate agents</p>
-                                <button class="btn btn-gold">View Properties <i class="fas fa-arrow-right"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
             <section class="discover">
                 <div class="discover-image">
-                    <div class="image-slider">
-                        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
-                        <div class="slide" style="background-image: url('https://futurestiles.com/wp-content/uploads/2024/11/Black-Elegant-Interior-Design-Presentation-2024-11-23T181925.075-2.jpg');"></div>
-                        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGhvbWV8ZW58MHx8fHwxNjg3Mjk2MDgw&ixlib=rb-4.0.3&q=80&w=1080');"></div>
-                        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDZ8fGhvbWV8ZW58MHx8fHwxNjg3Mjk2MDgw&ixlib=rb-4.0.3&q=80&w=1080');"></div>
-                        <div class="slide" style="background-image: url('https://keralahomedesignz.com/wp-content/uploads/2022/05/Home-06-pulikkal-720x340.jpg');"></div>
-                    </div>
                     <div class="discover-overlay">
                         <div class="container">
                             <div class="discover-content">
@@ -292,6 +265,8 @@
                     </div>
                 </div>
             </section>
+            
+           
             
 
             <!-- Property Listings -->
@@ -529,7 +504,7 @@
                             <li  data-aos="slide-right"  data-aos-delay="1250" data-aos-duration="1000" data-aos-offset="200"><i class="fas fa-map-marker-alt"></i> 132 Dartmouth Street Boston,<br>Massachusetts 02156 United States</li>
                         </ul>
                     </div>
-                    <div class="footer-column">
+                    <div class="footer-column" id="foot2">
                         <h3 data-aos="slide-left"  data-aos-delay="650" data-aos-duration="1000" data-aos-offset="200">Company</h3>
                         <ul class="footer-links">
                             <li data-aos="slide-left"  data-aos-delay="850" data-aos-duration="1000" data-aos-offset="200"><a href="/about">About</a></li>
@@ -537,7 +512,7 @@
                             <li data-aos="slide-left"  data-aos-delay="1250" data-aos-duration="1000" data-aos-offset="200"><a href="/blogs">Blogs</a></li>
                         </ul>
                     </div>
-                    <div class="footer-column">
+                    <div class="footer-column" id="foot2">
                         <h3  data-aos="slide-left"  data-aos-delay="650" data-aos-duration="1000" data-aos-offset="200">Legal</h3>
                         <ul class="footer-links">
                             <li  data-aos="slide-left"  data-aos-delay="850" data-aos-duration="1000" data-aos-offset="200"><a href="/privacy-policy">Privacy Policy</a></li>
