@@ -934,6 +934,12 @@ img {
     color: var(--secondary-color);
 }
 
+
+/* footer icon  */
+#footericon{
+    height: 5vmax;
+    margin-top: 2vmax;
+}
 /* Responsive */
 @media (max-width: 768px) {
     .footer-grid {
