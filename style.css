@@ -25,12 +25,6 @@ body {
     color: var(--text-color);
     background-color: var(--primary-color);
     overflow-x: hidden;
-    width: 100%;
-
-}
-html{
-    overflow-x: hidden;
-    width: 100%;
 }
 
 .container {
