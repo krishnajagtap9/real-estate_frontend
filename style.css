@@ -25,6 +25,11 @@ body {
     color: var(--text-color);
     background-color: var(--primary-color);
     overflow-x: hidden;
+    width: 100%;
+}
+html{
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .container {
@@ -202,7 +207,8 @@ img {
 /* 📱 Mobile Styles */
 @media (max-width: 768px) {
     .menu-toggle {
-        display: block;
+        display: flex;
+
     }
 
     .nav-menu {
@@ -995,8 +1001,9 @@ max-width: 100%;
     }
     
     .header-content {
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
+        gap: 15%;
         padding: 1rem 0;
     }
     
