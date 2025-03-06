@@ -1,0 +1,568 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rentroz - Real Estate</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header" data-aos="fade-up" data-aos-delay="50">
+            <div class="container" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
+                <div class="header-content">
+                    <div class="logo">
+                        <a href="/">
+                            <img src="logo.svg" alt="Rentroz Logo" width="80" height="80">
+                        </a>
+                    </div>
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <nav class="nav-menu">
+                        <ul class="nav-list">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link">Home <i class="fas fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <div class="dropdown-card">
+                                        <h3>Welcome to Rentroz</h3>
+                                        <p>Your trusted partner in real estate. Find your perfect property today.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link">Listings <i class="fas fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <ul>
+                                        <li><a href="/properties/buy"><h4>Buy Property</h4><p>Find and purchase your dream property.</p></a></li>
+                                        <li><a href="/properties/rent"><h4>Rent Property</h4><p>Discover rental properties that match your lifestyle.</p></a></li>
+                                        <li><a href="/properties/sell"><h4>Sell Property</h4><p>List your property and reach buyers.</p></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link">Properties <i class="fas fa-chevron-down"></i></a>
+                                <div class="dropdown-content">
+                                    <ul>
+                                        <li><a href="/properties/featured"><h4>Featured Properties</h4><p>Explore premium properties.</p></a></li>
+                                        <li><a href="/properties/new"><h4>New Listings</h4><p>Be the first to see new properties.</p></a></li>
+                                        <li><a href="/properties/reduced"><h4>Price Reduced</h4><p>Great deals on recently reduced properties.</p></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header-actions">
+                        <button class="btn btn-outline">Add Property</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-image">
+                    <div class="hero-overlay">
+                        <div class="container">
+                            <div class="hero-content">
+                                <h1>You Dream it,<br>We'll Find it.</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Service Icons -->
+            <section class="service-icons">
+                <div class="container">
+                    <div class="service-grid">
+                        <div class="service-icon" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="50">
+                            <img src="https://static.thenounproject.com/png/481137-200.png" alt="Apartments" class="icon">
+                            <span>Apartments</span>
+                        </div>
+                        <div class="service-icon" data-aos="zoom-in-up" data-aos-offset="200"  data-aos-duration="1000"  data-aos-delay="150">
+                            <img src="https://img.freepik.com/premium-vector/vector-house-icon-outline-house-home-page-icon-clip-art-svg_769314-402.jpg" alt="Houses" class="icon">
+                            <span>Houses</span>
+                        </div>
+                        <div class="service-icon" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="250">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvrm5VBWYoO4o4s0bt9pAgvnuinxs3W7js2w&s" alt="Rent" class="icon">
+                            <span>Rent</span>
+                        </div>
+                        <div class="service-icon" data-aos="zoom-in-up"data-aos-offset="200" data-aos-duration="1000" data-aos-delay="350">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN4952D8XV3c1Av_L0sLxFJ3cbEBhsTUTDyw&s" alt="Financing" class="icon">
+                            <span>Financing</span>
+                        </div>
+                        <div class="service-icon" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="450">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5564/5564847.png" alt="Furniture" class="icon">
+                            <span>Furniture</span>
+                        </div>
+                        <div class="service-icon" data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="550"  >
+                            <img src="https://www.svgrepo.com/show/2772/city-buildings.svg" alt="Buildings" class="icon">
+                            <span>Buildings</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Search Form -->
+            <section class="search-form" >
+                <div class="container">
+                    <div class="search-container">
+                        <div class="search-select">
+                            <select>
+                                <option>Type</option>
+                                <option>House</option>
+                                <option>Apartment</option>
+                                <option>Villa</option>
+                                <option>Office</option>
+                            </select>
+                        </div>
+                        <div class="search-input">
+                            <input type="text" placeholder="Enter Keywords">
+                        </div>
+                        <button class="btn btn-outline-gold">Filters</button>
+                        <button class="btn btn-blue">Search</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Why Work With Us -->
+            <section class="why-us" data-aos="fade-up"  data-aos-duration="1000">
+                <div class="container">
+                    <h2 class="section-title gold">Why You Should Work With Us</h2>
+                    <div class="features-grid">
+                        <div class="feature">
+                            <div class="feature-icon"  data-aos="zoom-in-up" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="50">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#E9B949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#E9B949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M5.5 9C6.32843 9 7 8.32843 7 7.5C7 6.67157 6.32843 6 5.5 6C4.67157 6 4 6.67157 4 7.5C4 8.32843 4.67157 9 5.5 9Z" stroke="#E9B949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M18.5 9C19.3284 9 20 8.32843 20 7.5C20 6.67157 19.3284 6 18.5 6C17.6716 6 17 6.67157 17 7.5C17 8.32843 17.6716 9 18.5 9Z" stroke="#E9B949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M18.5 18C19.3284 18 20 17.3284 20 16.5C20 15.6716 19.3284 15 18.5 15C17.6716 15 17 15.6716 17 16.5C17 17.3284 17.6716 18 18.5 18Z" stroke="#E9B949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M5.5 18C6.32843 18 7 17.3284 7 16.5C7 15.6716 6.32843 15 5.5 15C4.67157 15 4 15.6716 4 16.5C4 17.3284 4.67157 18 5.5 18Z" stroke="#E9B949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3>Wide Range of Properties</h3>
+                            <p>We offer expert legal help for all related property items in Dubai.</p>
+                        </div>
+                        <div class="feature"  data-aos="zoom-in-up" data-aos-offset="0"  data-aos-duration="1000"  data-aos-delay="450">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 22H22" stroke="#E9B949" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2.95 22L3 9.97C3 9.36 3.29 8.78 3.77 8.4L10.77 2.95C11.49 2.39 12.5 2.39 13.23 2.95L20.23 8.39C20.72 8.77 21 9.34 21 9.97V22" stroke="#E9B949" stroke-width="1.5" stroke-miterlimit="10" stroke-linejoin="round"/>
+                                    <path d="M15.5 11H8.5C7.67 11 7 11.67 7 12.5V22H17V12.5C17 11.67 16.33 11 15.5 11Z" stroke="#E9B949" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10 16.25V17.75" stroke="#E9B949" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.5 7.5H13.5" stroke="#E9B949" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3>Buy or Rent Homes</h3>
+                            <p>We sell your home at the best market price and very quickly as well.</p>
+                        </div>
+                        <div class="feature"  data-aos="zoom-in-up" data-aos-offset="0"  data-aos-duration="1000"  data-aos-delay="950">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#E9B949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#E9B949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <h3>Trusted by Thousands</h3>
+                            <p>We offer you free consultancy to get a loan for your new home.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Best Properties -->
+            <section class="best-properties"  >
+                <div class="container" id="changescontainer ">
+                    <h2 class="section-title">Best Properties</h2>
+                    <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    
+                    <div class="properties-grid" >
+                        <!-- Main property (left side) -->
+                        <div class="property-card main-property"  data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="50">
+                            <div class="property" >
+                                <span class="tag sale">FOR SALE</span>
+                                <span class="tag featured">FEATURED</span>
+                            </div>
+                            <div class="property-image" >
+                                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-03-05%20at%2010.54.05%E2%80%AFPM-S4xYlMFz750tVRx6Xxt7qCTxVx6WnM.png" alt="Villa One Hyde Park" class="hidden">
+                                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Villa One Hyde Park">
+                            </div>
+                            <div class="property-overlay">
+                                <div class="property-info">
+                                    <h3 class="property-title">Villa One Hyde Park</h3>
+                                    <div class="property-location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>2050 Bloomingdale Ave</span>
+                                    </div>
+                                    <div class="property-details">
+                                        <div class="property-price">$120,000</div>
+                                        <div class="property-specs">
+                                            <span><i class="fas fa-bed"></i> 4</span>
+                                            <span><i class="fas fa-bath"></i> 2</span>
+                                            <span><i class="fas fa-vector-square"></i> 350</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Right side grid -->
+                        <div class="property-grid-right">
+                            <!-- Top right property -->
+                            <div class="property-card secondary-property"  data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="450">
+                                <div class="property-image"  >
+                                    <img src="https://images.unsplash.com/photo-1616137466211-f939a420be84?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2532&q=80" alt="Modern Interior">
+                                    <div class="nav-buttons">
+                                        <button class="nav-btn prev"><i class="fas fa-chevron-left"></i></button>
+                                        <button class="nav-btn next"><i class="fas fa-chevron-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Bottom grid -->
+                            <div class="property-bottom-grid">
+                                <!-- Bottom left property -->
+                                <div class="property-card small-property"  data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="850">
+                                    <div class="property-image">
+                                        <img src="https://images.unsplash.com/photo-1581541234269-03d5d8576c0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2574&q=80" alt="Cozy Interior">
+                                        <div class="play-button">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Bottom right property counter -->
+                                <div class="property-counter"  data-aos="zoom-in-up" data-aos-offset="200" data-aos-duration="1000" data-aos-delay="1250" >
+                                    <div class="counter-content" >
+                                        <h3 class="counter-number">280+</h3>
+                                        <p class="counter-title">Properties</p>
+                                        <p class="counter-description">Explore our wide variety of properties to fid your dream home today</p>
+                                        <div class="counter-arrow">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Discover Section -->
+            <!-- <section class="discover">
+                <div class="discover-image">
+                    <div class="discover-overlay">
+                        <div class="container">
+                            <div class="discover-content">
+                                <h2>Discover a place you'll<br>love to live</h2>
+                                <p>Find your dream home with our expert real estate agents</p>
+                                <button class="btn btn-gold">View Properties <i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="discover">
+                <div class="discover-image">
+                    <div class="image-slider">
+                        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');"></div>
+                        <div class="slide" style="background-image: url('https://futurestiles.com/wp-content/uploads/2024/11/Black-Elegant-Interior-Design-Presentation-2024-11-23T181925.075-2.jpg');"></div>
+                        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGhvbWV8ZW58MHx8fHwxNjg3Mjk2MDgw&ixlib=rb-4.0.3&q=80&w=1080');"></div>
+                        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDZ8fGhvbWV8ZW58MHx8fHwxNjg3Mjk2MDgw&ixlib=rb-4.0.3&q=80&w=1080');"></div>
+                        <div class="slide" style="background-image: url('https://keralahomedesignz.com/wp-content/uploads/2022/05/Home-06-pulikkal-720x340.jpg');"></div>
+                    </div>
+                    <div class="discover-overlay">
+                        <div class="container">
+                            <div class="discover-content">
+                                <h2>Discover a place you'll<br>love to live</h2>
+                                <p>Find your dream home with our expert real estate agents</p>
+                                <button class="btn btn-gold">View Properties <i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <!-- Property Listings -->
+            <section class="property-listings" id="properties_section">
+                <div class="container" id="properties_container">
+                    <div class="section-header">
+                        <h2 class="section-title">Featured Properties</h2>
+                        <button class="btn btn-outline-gold">View All</button>
+                    </div>
+                    <div class="listings-grid">
+                        <div class="property-card"  data-aos="fade-up"  data-aos-delay="50" data-aos-duration="1000" data-aos-offset="400">
+                            <div class="property" >
+                                <span class="tag sale">FOR SALE</span>
+                            </div>
+                            <div class="property-image">
+                                <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Luxury Villa">
+                            </div>
+                            <div class="property-overlay">
+                                <div class="property-info">
+                                    <h3 class="property-title">Luxury Villa</h3>
+                                    <div class="property-location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Miami, FL</span>
+                                    </div>
+                                    <div class="property-details">
+                                        <div class="property-price">$950,000</div>
+                                        <div class="property-specs">
+                                            <span><i class="fas fa-bed"></i> 5</span>
+                                            <span><i class="fas fa-bath"></i> 4</span>
+                                            <span><i class="fas fa-vector-square"></i> 3200</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-card"  data-aos="fade-up"  data-aos-delay="250" data-aos-duration="1000" data-aos-offset="400">
+                            <div class="property">
+                                <span class="tag sale">FOR SALE</span>
+                            </div>
+                            <div class="property-image">
+                                <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Modern Apartment">
+                            </div>
+                            <div class="property-overlay">
+                                <div class="property-info">
+                                    <h3 class="property-title">Modern Apartment</h3>
+                                    <div class="property-location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Seattle, WA</span>
+                                    </div>
+                                    <div class="property-details">
+                                        <div class="property-price">$350,000</div>
+                                        <div class="property-specs">
+                                            <span><i class="fas fa-bed"></i> 2</span>
+                                            <span><i class="fas fa-bath"></i> 2</span>
+                                            <span><i class="fas fa-vector-square"></i> 1100</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-card"  data-aos="fade-up"  data-aos-delay="650" data-aos-duration="1000" data-aos-offset="400">
+                            <div class="property">
+                                <span class="tag featured">FEATURED</span>
+                            </div>
+                            <div class="property-image">
+                                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2075&q=80" alt="Family House">
+                            </div>
+                            <div class="property-overlay">
+                                <div class="property-info">
+                                    <h3 class="property-title">Family House</h3>
+                                    <div class="property-location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Austin, TX</span>
+                                    </div>
+                                    <div class="property-details">
+                                        <div class="property-price">$650,000</div>
+                                        <div class="property-specs">
+                                            <span><i class="fas fa-bed"></i> 4</span>
+                                            <span><i class="fas fa-bath"></i> 3</span>
+                                            <span><i class="fas fa-vector-square"></i> 2800</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-card"  data-aos="fade-up"  data-aos-delay="650" data-aos-duration="1000" data-aos-offset="400">
+                            <div class="property">
+                                <span class="tag sale">FOR SALE</span>
+                            </div>
+                            <div class="property-image">
+                                <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Cozy Cottage">
+                            </div>
+                            <div class="property-overlay">
+                                <div class="property-info">
+                                    <h3 class="property-title">Cozy Cottage</h3>
+                                    <div class="property-location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Portland, OR</span>
+                                    </div>
+                                    <div class="property-details">
+                                        <div class="property-price">$195,000</div>
+                                        <div class="property-specs">
+                                            <span><i class="fas fa-bed"></i> 2</span>
+                                            <span><i class="fas fa-bath"></i> 1</span>
+                                            <span><i class="fas fa-vector-square"></i> 950</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-card"  data-aos="fade-up"  data-aos-delay="250" data-aos-duration="1000" data-aos-offset="400">
+                            <div class="property">
+                                <span class="tag featured">FEATURED</span>
+                            </div>
+                            <div class="property-image">
+                                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Penthouse Suite">
+                            </div>
+                            <div class="property-overlay">
+                                <div class="property-info">
+                                    <h3 class="property-title">Penthouse Suite</h3>
+                                    <div class="property-location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Chicago, IL</span>
+                                    </div>
+                                    <div class="property-details">
+                                        <div class="property-price">$875,000</div>
+                                        <div class="property-specs">
+                                            <span><i class="fas fa-bed"></i> 3</span>
+                                            <span><i class="fas fa-bath"></i> 3</span>
+                                            <span><i class="fas fa-vector-square"></i> 2200</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="property-card"  data-aos="fade-up"  data-aos-delay="50" data-aos-duration="1000" data-aos-offset="400">
+                            <div class="property">
+                                <span class="tag sale">FOR SALE</span>
+                            </div>
+                            <div class="property-image">
+                                <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Suburban Home">
+                            </div>
+                            <div class="property-overlay">
+                                <div class="property-info">
+                                    <h3 class="property-title">Suburban Home</h3>
+                                    <div class="property-location">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Denver, CO</span>
+                                    </div>
+                                    <div class="property-details">
+                                        <div class="property-price">$550,000</div>
+                                        <div class="property-specs">
+                                            <span><i class="fas fa-bed"></i> 4</span>
+                                            <span><i class="fas fa-bath"></i> 2</span>
+                                            <span><i class="fas fa-vector-square"></i> 2400</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-more">
+                        <button class="btn btn-outline-gold">View More <i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Why Choose Us -->
+            <section class="why-choose-us"  data-aos="zoom-in-up"  data-aos-delay="250" data-aos-duration="1000" data-aos-offset="400">
+                <div class="container">
+                    <h2 class="section-title dark">Why Choose Us</h2>
+                    <div class="features-grid">
+                        <div class="feature">
+                            <div class="feature-icon light">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <h3>Find your dream home</h3>
+                            <p>We have the perfect home waiting for you in every corner of the city.</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon light">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <h3>Experienced agents</h3>
+                            <p>Our team of experts will guide you through the entire buying process.</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon light">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <h3>Buy or rent houses</h3>
+                            <p>Whether you want to buy or rent, we have options that fit your needs.</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon light">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <h3>List your own property</h3>
+                            <p>Want to sell? We can help you list and market your property effectively.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="newsletter"   data-aos="fade-down"  data-aos-delay="250" data-aos-duration="1000" data-aos-offset="400">
+                <div class="container">
+                    <div class="newsletter-content">
+                        <div class="newsletter-icon">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <h2>Stay Up to Date</h2>
+                        <p>Subscribe to our newsletter to receive our weekly feed.</p>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="Your e-mail" class="newsletter-input">
+                            <button class="btn btn-transparent">Send <i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer"   data-aos="fade-down"  data-aos-delay="650" data-aos-duration="1000" data-aos-offset="200">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-column" id="foot1">
+                        <h3  data-aos="slide-right"  data-aos-delay="650" data-aos-duration="1000" data-aos-offset="200">Reach us</h3>
+                        <ul class="footer-contact">
+                            <li data-aos="slide-right"  data-aos-delay="850" data-aos-duration="1000" data-aos-offset="200"><i class="fas fa-phone" ></i> +1012 3456 789</li>
+                            <li  data-aos="slide-right"  data-aos-delay="1050" data-aos-duration="1000" data-aos-offset="200"><i class="fas fa-envelope"></i> demo@gmail.com</li>
+                            <li  data-aos="slide-right"  data-aos-delay="1250" data-aos-duration="1000" data-aos-offset="200"><i class="fas fa-map-marker-alt"></i> 132 Dartmouth Street Boston,<br>Massachusetts 02156 United States</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 data-aos="slide-left"  data-aos-delay="650" data-aos-duration="1000" data-aos-offset="200">Company</h3>
+                        <ul class="footer-links">
+                            <li data-aos="slide-left"  data-aos-delay="850" data-aos-duration="1000" data-aos-offset="200"><a href="/about">About</a></li>
+                            <li data-aos="slide-left"  data-aos-delay="1050" data-aos-duration="1000" data-aos-offset="200"><a href="/contact">Contact</a></li>
+                            <li data-aos="slide-left"  data-aos-delay="1250" data-aos-duration="1000" data-aos-offset="200"><a href="/blogs">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3  data-aos="slide-left"  data-aos-delay="650" data-aos-duration="1000" data-aos-offset="200">Legal</h3>
+                        <ul class="footer-links">
+                            <li  data-aos="slide-left"  data-aos-delay="850" data-aos-duration="1000" data-aos-offset="200"><a href="/privacy-policy">Privacy Policy</a></li>
+                            <li  data-aos="slide-left"  data-aos-delay="1050" data-aos-duration="1000" data-aos-offset="200"><a href="/terms">Terms & Services</a></li>
+                            <li  data-aos="slide-left"  data-aos-delay="1250" data-aos-duration="1000" data-aos-offset="200"><a href="/terms-of-use">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2025. Rentroz</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset:1000,
+          });
+        </script>
+        <script src="script.js"></script>
+    </body>
+    </html>
