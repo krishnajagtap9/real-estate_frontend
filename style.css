@@ -823,7 +823,6 @@ display: none;
   padding: 6rem 0; /* Increased padding to create more space */
   position: relative;
   z-index: 2;
-  top: 200px;
   background-color: rgb(215, 182, 33);
 }
 
