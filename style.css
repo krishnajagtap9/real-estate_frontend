@@ -1105,6 +1105,7 @@ display: none;
     z-index: 1000;
     justify-content: center;
     align-items: center;
+    display: none;
 
   }
   .last_nav li {
@@ -1125,7 +1126,9 @@ display: none;
   @media (max-width: 768px) {
     .last_nav {
       display: flex;
+      display: block;
     }
+
   }
 
 
