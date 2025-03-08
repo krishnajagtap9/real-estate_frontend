@@ -830,6 +830,7 @@ display: none;
 .newsletter {
   background-color: var(--primary-color);
   padding: 4rem 0;
+
 }
 
 .newsletter-content {
@@ -1014,17 +1015,18 @@ display: none;
   }
 
   #properties_section {
-    height: 259vh;
+    
   }
   #properties_container {
     margin-top: 8vmax;
   }
- .newsletter-form{
-    display: none;
- }
+
   .footer {
     display: none;
   }
+ .newsletter{
+    height: 70vh;
+}
   
 
   /* mobile serch bar  */
