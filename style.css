@@ -706,7 +706,7 @@ display: none;
 }
 
 .counter-number {
-  font-size: 1vmax;
+  font-size: 2vmax;
   font-weight: 700;
   color: var(--text-dark);
   margin-bottom: 0.25rem;
