@@ -813,9 +813,7 @@ display: none;
   text-align: center;
   margin-top: 2rem;
 }
-#properties_section {
-  height: 100vh;
-}
+
 #properties_container {
   margin-top: 8vmax;
 }
@@ -825,7 +823,7 @@ display: none;
   padding: 6rem 0; /* Increased padding to create more space */
   position: relative;
   z-index: 2;
-  top: 50px;
+  top: 200px;
   background-color: rgb(215, 182, 33);
 }
 
