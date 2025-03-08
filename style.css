@@ -686,58 +686,57 @@ display: none;
   color: white;
   cursor: pointer;
 }
-
 .property-counter {
-  background-color: var(--secondary-color);
-  border-radius: 1rem;
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  max-width: 250px;
-  height: auto;
-  text-align: center;
-}
-
-.counter-content {
-  position: relative;
-}
-
-.counter-number {
-  font-size: 2vmax;
-  font-weight: 700;
-  color: var(--text-dark);
-  margin-bottom: 0.25rem;
-}
-
-.counter-title {
-  font-size: 1.1vmax;
-  color: var(--text-dark);
-  margin-bottom: 0.5rem;
-}
-
-.counter-description {
-  font-size: 16px;
-  color: var(--text-dark);
-  margin-bottom: 1rem;
-}
-
-.counter-arrow {
-  position: absolute;
-  bottom: -1rem;
-  right: 0;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-dark);
-}
-
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    text-align: center;
+    gap: 1rem; /* Adds spacing between elements */
+  }
+  
+  .counter-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .counter-number {
+    font-size: 2vmax;
+    font-weight: 700;
+    color: var(--text-dark);
+  }
+  
+  .counter-title {
+    font-size: 1.1vmax;
+    color: var(--text-dark);
+  }
+  
+  .counter-description {
+    font-size: 12px;
+    color: var(--text-dark);
+  }
+  
+  .counter-arrow {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-dark);
+    margin-top: 1rem; /* Pushes the arrow below other content */
+  }
+  
 /* imporve css of discover  */
 
 /* Discover Section */
