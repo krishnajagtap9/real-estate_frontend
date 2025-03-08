@@ -1107,6 +1107,7 @@ display: none;
     align-items: center;
     display: none;
 
+
   }
   .last_nav li {
     list-style: none; /* Ensures individual items have no bullets */
@@ -1126,7 +1127,7 @@ display: none;
   @media (max-width: 768px) {
     .last_nav {
       display: flex;
-      display: block;
+
     }
 
   }
