@@ -719,7 +719,7 @@ display: none;
 }
 
 .counter-description {
-  font-size: 0.5vmax;
+  font-size: 16px;
   color: var(--text-dark);
   margin-bottom: 1rem;
 }
@@ -1005,7 +1005,7 @@ display: none;
     grid-template-columns: 1fr;
   }
   .counter-number {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   .counter-title {
     font-size: 1.25rem;
